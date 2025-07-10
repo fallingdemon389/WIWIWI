@@ -1,0 +1,30 @@
+Let's make a game!
+    Name: slimeidletest
+    by:Business_Kat
+    desc:WAH!
+    created:11/07/2025
+    updated:11/07/2025
+    Version: 1
+
+Settings
+  background:
+  building cost: 110%
+  building cost refund: 50%
+  spritesheet:
+  stylesheet: https://pastebin.com/raw/BvULfe8H
+
+Layout
+  use default
+
+Buttons
+  *Slimecrystal
+        name:Dig
+        desc:Click this to dig for a slime crystal!
+        on click:anim icon wobble
+        on click:yield 1 slimecrystal
+        icon:
+        no Text
+        class:bigButton hasFlares
+        icon class:shadowed
+        tooltip origin:bottom
+        tooltip class:red

@@ -176,6 +176,6 @@ CSS
 #game.filtersOn .thing-icon{filter:dropshadow(3p 3px 1px rgba(0,0,0,0.5));}
 
 Settings
-  background:
+  tiling background:https://img.itch.zone/aW1nLzQyOTkxMDkucG5n/original/qGXfxf.png
   building cost: 110%
   building cost refund: 50%

@@ -24,7 +24,7 @@ CSS
 }
 .thing,.box-header,.box-footer,.box-bit
 {
-	background:rgba(214, 213, 213, 0.5);
+	background:rgb(109, 80, 103);
 	border:1px solid rgba(0,0,0,0.9);
 	margin:1px;
 }

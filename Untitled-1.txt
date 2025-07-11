@@ -4,12 +4,11 @@ Let's make a game!
     desc:WAH!
     created:11/07/2025
     updated:11/07/2025
-    Version: 1
 
 CSS
   #game
 {
-    background-color:rgb(132,70,126);
+    background-color:rgb(255, 248, 254);
     font-family:opendyslexic;
     font-size:14px;
     colour:rgba(0,0,0,0.9);
@@ -24,13 +23,13 @@ CSS
 }
 .thing,.box-header,.box-footer,.box-bit
 {
-	background:rgb(109, 80, 103);
+	background:rgb(255, 255, 255);
 	border:1px solid rgba(0,0,0,0.9);
 	margin:1px;
 }
 .thing:hover
 {
-    background:rgba(255,255,255,0.75);
+    background:rgba(255, 255, 255, 0.75);
 }
 
 .box-header
@@ -150,7 +149,7 @@ CSS
 {
     content:'';
     height:1px;
-    background:rgba(190, 36, 36, 0.75);
+    background:rgba(255,255,255,0.75);
     position:absolute;
     left:0px;
     right:0px;
@@ -175,3 +174,8 @@ CSS
     font-weight:normal;
 }
 #game.filtersOn .thing-icon{filter:dropshadow(3p 3px 1px rgba(0,0,0,0.5));}
+
+Settings
+  background:
+  building cost: 110%
+  building cost refund: 50%

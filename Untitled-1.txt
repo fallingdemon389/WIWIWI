@@ -6,7 +6,7 @@ Let's make a game!
     updated:11/07/2025
     Version: 1
 
-css
+CSS
   #game
 {
     background-color:#6d5067
@@ -175,26 +175,3 @@ css
     font-weight:normal;
 }
 #game.filtersOn .thing-icon{filter:dropshadow(3p 3px 1px rgba(0,0,0,0.5));}
-
-Settings
-  background:
-  building cost: 110%
-  building cost refund: 50%
-  spritesheet:
-  stylesheet: https://pastebin.com/raw/BvULfe8H
-
-Layout
-  use default
-
-Buttons
-  *Slimecrystal
-        name:Dig
-        desc:Click this to dig for a slime crystal!
-        on click:anim icon wobble
-        on click:yield 1 slimecrystal
-        icon:
-        no Text
-        class:bigButton hasFlares
-        icon class:shadowed
-        tooltip origin:bottom
-        tooltip class:red

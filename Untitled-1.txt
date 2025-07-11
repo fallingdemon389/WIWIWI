@@ -9,7 +9,7 @@ Let's make a game!
 CSS
   #game
 {
-    background-color:#6d5067
+    background-color:rgb(132,70,126);
     font-family:opendyslexic;
     font-size:14px;
     colour:rgba(0,0,0,0.9);

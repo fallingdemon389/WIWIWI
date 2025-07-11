@@ -6,6 +6,176 @@ Let's make a game!
     updated:11/07/2025
     Version: 1
 
+css
+  #game
+{
+    background-color:#6d5067
+    font-family:opendyslexic;
+    font-size:20px;
+    colour:rgba(0,0,0,0.9);
+    text-shadow:none;
+}
+
+.box
+{
+	text-align:center;
+	padding:0px;
+	box-shadow:none;
+}
+.thing,.box-header,.box-footer,.box-bit
+{
+	background:rgba(214, 213, 213, 0.5);
+	border:1px solid rgba(0,0,0,0.9);
+	margin:1px;
+}
+.thing:hover
+{
+    background:rgba(255,255,255,0.75);
+}
+
+.box-header
+{
+    margin-bottom:4px;
+}
+.box-footer
+{
+    margin-top:4px;
+
+}
+
+.title
+{
+    text-decoration:underline;
+}
+
+#box-main
+{
+    left:0px;
+    top:0px;
+    bottom:0px;
+    overflow:hidden;
+    width:60%;
+    position:absolute;
+}
+#box-res.fullwidth
+{
+    width:10%;
+    top:5%;
+    height:5%;
+    min-height:32px;
+    z-index:100;
+    position:absolute;
+}
+#box-store
+{
+    right:0px;
+    top:0px;
+    bottom:0px;
+    width:50%;
+    right:0%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    padding-bottom:48px;
+    position:absolute;
+
+}
+#box-buildings
+{right:50%;}
+
+#box-buildings>.box-header
+{
+    padding-bottom: 16px;
+}
+#bulkdisplay
+{
+    margin:-20px 24px 6px 24px;
+    border:none;
+    background:transparent;
+}
+
+.thing
+{
+    display:inline-block;
+    padding:0px;
+    cursor:pointer;
+}
+.thing:active
+{
+    opacity:0.5;
+}
+.upgrade.owned,.achiev.owned
+{
+    box-shadow:0px 0px 2px rgba(0,0,0,0.5) inset;
+}
+.thing.cantafford
+{
+    opacity:0.65;
+}
+
+.thing-costs{font-weight: bold;text-shadow:1px 1px 0px rgba(0,0,0,0.5);}
+.cost.hasenough{color:#0f0;}
+.cost.notenough{color:#f00}
+
+.button>.thing-text
+{
+    text-decoration:underline;
+}
+
+.building
+{
+    display:block
+    margin-right:0px;
+    font-size:14px;
+}
+
+.fullwidth
+{
+    display:block;
+    margin-right:0px;
+    margin-left:0px;
+    z-index:10;
+}
+#game .fullwidth
+{
+    height:auto;
+    min-height:auto;
+}
+.fullwidth,.fullwidth:hover
+{
+    background:rgba(0,0,0,0.75);
+    box-shadow:none;
+    color:#fff;
+}
+.fullwidth:before,.fullwidth::after
+{
+    content:'';
+    height:1px;
+    background:rgba(255,255,255,0.75);
+    position:absolute;
+    left:0px;
+    right:0px;
+    z-index:-1;
+}
+.fullwidth:before{top:-1px;}
+.fullwidth:after{bottom:-1px;}
+
+.fullwidth .thing-icon
+{
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+.fullwidth .thing-text
+{
+    margin-top:-4px;
+    margin-bottom:-4px;
+}
+
+.listing
+{
+    font-weight:normal;
+}
+#game.filtersOn .thing-icon{filter:dropshadow(3p 3px 1px rgba(0,0,0,0.5));}
+
 Settings
   background:
   building cost: 110%
